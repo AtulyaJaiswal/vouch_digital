@@ -1,0 +1,30 @@
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 2.3px 4.6px 4.6px  rgba(216, 215, 215, 0.48);
+}
+.navbar_left{
+    margin-left: 40px;
+}
+.navbar_left > h2{
+    color: #023047;
+    font-weight: 800;
+    margin-top: 8px;
+}
+.navbar_left > h2 > span{
+    color: #fb8500;
+}
+.navbar_right{
+    margin-right: 40px;
+}
+.navbar_right > Button{
+    margin: 10px;
+    margin-right: 20px;
+}
+
+@media only screen and (max-width: 768px){
+    .navbar_right{
+        display: none;
+    }
+}
